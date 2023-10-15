@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografía de Jinx</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/contacto.css">
+</head>
+
+<body>
+    <header>
+        <h1> Biografía de Jinx </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pref.html">Prefencias</a></li>
+                <li><a href="aud_vid.html">AudioVisuales</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenedor-formulario">
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Escribí aquí tu nombre" required minlength="3">
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" placeholder="Escribí aquí tu apellido" required required minlength="3">
+
+            <label for="mail">Mail:</label>
+            <input type="email" id="mail" placeholder="Escriba aquí su mail" required>
+
+            <label for="pais">País</label>
+            <select>
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Brasil">Brasil</option>
+                <option value="España">España</option>
+                <option value="Alemania">Alemania</option>
+                <option value="Mexico">Mexico</option>
+            </select>
+
+            <label for="comentarios"></label>
+            <textarea name="comentarios" id="comentarios" placeholder="Deajanos tu comentario"></textarea>
+
+            <label for="motivo">Motivo de contacto </label>
+            <input type="radio" id="motivo" name="motivo"><i>Soy fan de Jinx</i>
+            <input type="radio" id="motivo" name="motivo"><i>Quiero una remera</i>
+            <input type="radio" id="motivo" name="motivo"><i>Comerciales</i>
+            <input type="radio" id="motivo" name="motivo"><i>Reclamos</i>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+
+    
+
+
+
+    <footer class="footer">
+        <p>derechos reservados &copy; 2023</p>
+    </footer>
+
+
+</body>
+
+</html>
